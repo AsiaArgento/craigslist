@@ -1,6 +1,7 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
 import Header from './includes/Header.js'
+import Home from './pages/Home.js'
 
 export default class App extends Component {
   constructor () {
@@ -15,6 +16,7 @@ export default class App extends Component {
   render () {
     return (<div>
       <Header />
+      <Home />
     </div>)
   }
 }
